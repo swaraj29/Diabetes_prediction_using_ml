@@ -34,7 +34,7 @@ st.set_page_config(page_title="Health Assistant",
     
 
 # loading the saved model
-loaded_model = pickle.load(open('Saved_model', 'rb'))
+loaded_model = pickle.load(open('trained_model (1).sav', 'rb'))
 # sidebar for navigation
 with st.sidebar:
     selected = option_menu('Multiple Disease Prediction System',
