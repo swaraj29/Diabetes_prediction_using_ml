@@ -29,7 +29,7 @@ def diabetes_prediction(input_data):
 # Set page configuration
 st.set_page_config(page_title="Health Assistant",
                    layout="wide",
-                   page_icon="🧑‍⚕️")
+                   page_icon="🧑‍⚕️" "🐼" )
 
     
 
